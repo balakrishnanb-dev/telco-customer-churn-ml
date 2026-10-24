@@ -66,7 +66,6 @@ pytest -q
 ```
 
 ## Important interpretation notes
-- This is a portfolio/learning project, not a production churn system.
 - Risk scores are estimates from this dataset and should not be treated as certainty.
 - Feature importance describes predictive association, not causation.
 - A real deployment would require time-based validation, monitoring for drift, privacy review, and testing whether retention interventions actually work.
@@ -76,11 +75,3 @@ pytest -q
 2. Calibrate predicted probabilities and choose a threshold based on campaign capacity/cost.
 3. Add SHAP explanations and model monitoring.
 4. Deploy the app and document a reproducible experiment run.
-
-## Resume bullet (update metrics after running the project)
-**Customer Churn Prediction & Retention Analytics | Python, Pandas, scikit-learn, Streamlit**
-- Built an end-to-end churn analytics pipeline on IBM's 7,043-row telecom dataset, covering data validation, EDA, preprocessing, cross-validated model comparison, and held-out evaluation.
-- Developed an interactive Streamlit app to explore churn patterns and score customer churn risk; interpreted model behaviour with permutation importance.
-- Evaluated models using ROC-AUC, average precision, recall, and F1 to account for class imbalance.
-
-Replace these bullets with your own wording after you have run, reviewed, and understood the code. Add the actual metrics generated in `artifacts/model_metrics.csv` only after running the experiment.
