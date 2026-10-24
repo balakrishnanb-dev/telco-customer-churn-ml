@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+    Retained       0.90      0.72      0.80      1035
+     Churned       0.50      0.78      0.61       374
+
+    accuracy                           0.74      1409
+   macro avg       0.70      0.75      0.71      1409
+weighted avg       0.80      0.74      0.75      1409
+
+Confusion matrix [ [TN, FP], [FN, TP] ]:
+[[747, 288], [81, 293]]

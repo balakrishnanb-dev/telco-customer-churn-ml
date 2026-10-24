@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/raw/*.csv
+artifacts/*.joblib
+artifacts/*.json
+artifacts/*.csv
+outputs/*.csv
+outputs/*.png
+.DS_Store
